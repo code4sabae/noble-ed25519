@@ -566,7 +566,7 @@ function equalBytes(b1, b2) {
     if (b1.length !== b2.length) {
         return false;
     }
-    let diff: number = 0;
+    let diff = 0;
     for (let i = 0; i < b1.length; i++) {
         diff |= b1[i] ^ b2[i];
     }
